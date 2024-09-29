@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.listen(port,()=>{
-    console.log('running .................');
+    console.log('server is running');
 })
 
 //Routes
